@@ -17,6 +17,8 @@ public class mavenExamples1 {
 //		 driver.get("http://www.google.com");
 		
 		
+		// Headless Browser 
+		
 		System.setProperty("phantomjs.binary.path","C:\\Users\\aboba\\Documents\\IT Class\\Testing Class Note\\Drivers\\phantomjs-2.1.1-windows\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
 		WebDriver driver = new PhantomJSDriver();
 		driver.get("http://www.google.com");
